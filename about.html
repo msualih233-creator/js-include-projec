@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       }
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: rgb(101, 101, 227);
+    --shadow-color: rgb(0,0,0,0.4);
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* nav style start */
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.container .nav{
+    background-color: var(--main-color);
+    min-height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 8px rgb(0,0,0,0.5);
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li > a{
+    color:white;
+    padding-bottom: 7px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.nav ul li > a:hover{
+    color: black;
+}
+
+/* nav style end */
+
+
+/* main style start */
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content > h1{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.main-container .form{
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    box-shadow: 0px 0px 16px var(--shadow-color); 
+    min-width: 500px; 
+}
+
+.form .input-filed{
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-filed input{
+    border: none;
+    font-size: 1.3rem;
+    padding:8px 12px ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(0,0,0,0.2);
+    outline: none;
+}
+
+.input-filed input:hover{
+    box-shadow: 0px 0px 8px rgba(88, 88, 246, 0.573);
+}
+
+.input-filed input:focus{
+    box-shadow: 1px 0px 24px rgba(60, 60, 237, 0.714);
+}
+
+.form .submit-btn{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: blue;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid blue;
+    box-shadow: 0px 0px 16px rgba(60, 60, 237, 0.714);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.form .submit-btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+/* main style end */
+
+
+
+
+/* Footer style start*/
+footer {
+    background-color: var(--main-color);
+    font-size: 2rem;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 600;
+
+}
+
+footer p:hover{
+    color: white;
+}
+
+@media(max-width: 700px){
+    .container .nav ul{
+        padding: 20px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 8px rgb(0,0,0,0.5);
+    }
+
+    footer{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+p{
+    color: tomato;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <ul>
+  <li><a href="home.html">HOME</a></li>
+   <li><a href="login.html">LOGIN</a></li> 
+   <li><a href="user.html">USER</a></li> 
+   <li><a href="student.html">STUDENT</a></li> 
+   <li><a href="about.html">ABOUT</a></li> 
+   <li><a href="register.html">RIGISTER</a></li>
+   <li><a href="contact.html">CONTACT</a></li> 
+</ul>
+</nav>
+    <p> woldia University is one of the best  University 
+        it have so many Department but technology Department is not recmanded b/c it is not have access
+    </p>
+
+</div>
+    <main class="main-container">
+            <div class="main-content">
+                <h1>
+                    Welcome to Woldia University Page
+                </h1>
+            </div>
+        </main>
+
+        <footer>
+          &copy; Copy right reserved Woldia University
+          <p>Developed by  Sualih</p>
+        </footer>
+    </div>
+
+</body>
+</html>
+</body>
+</html>
